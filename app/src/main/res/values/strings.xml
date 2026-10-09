@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Navigasi Mahasiswa</string>
+    <string name="welcome_message">Selamat datang</string>
+    <string name="app_description">Aplikasi sederhana untuk menampilkan informasi mahasiswa.</string>
+</resources>
