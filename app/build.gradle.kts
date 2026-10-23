@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.prak_5_app"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.prak_5_app"
-        minSdk = 24
-        targetSdk = 35
+        minSdk = 26
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -34,6 +34,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.coil.compose)
     implementation("androidx.navigation:navigation-compose:2.9.8")
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)

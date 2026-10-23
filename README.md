@@ -1,24 +1,19 @@
-# Navigasi Mahasiswa
+# Tugas Praktikum Compose
 
-Aplikasi Android sederhana untuk latihan perpindahan halaman menggunakan Kotlin, Jetpack Compose, dan Navigation Compose.
+Aplikasi Android untuk tugas praktik modul Debug, SDK, Library, dan Main Activity.
 
-## Halaman
+## Isi aplikasi
 
-- **Home** menjadi halaman awal aplikasi.
-- **Detail** menerima studentId melalui argument route dan menampilkan nilainya.
-- **Profile** menampilkan informasi mahasiswa.
-- **About** menampilkan informasi singkat aplikasi.
-- Tombol Kembali memakai back stack navigasi.
+- Minimum SDK 26, Target SDK 36, dan Compile SDK 36.
+- Activity launcher: `ActivityUtama`.
+- Memuat gambar acak dari internet menggunakan Coil Compose 2.7.0.
+- Menampilkan resource `outline_10mp_24` jika gambar masih dimuat atau gagal diambil.
+- Menghitung `100 / 5` dan menampilkan `Hasil: 20`.
 
-## Teknologi
+## Menjalankan di Android Studio
 
-- Kotlin
-- Jetpack Compose
-- Navigation Compose 2.9.8
-
-## Menjalankan aplikasi
-
-1. Buka folder project ini di Android Studio.
+1. Buka folder proyek ini di Android Studio.
 2. Tunggu Gradle Sync selesai.
-3. Pilih emulator atau perangkat Android.
-4. Tekan tombol Run.
+3. Pilih emulator, lalu klik **Run** dengan konfigurasi `app`.
+
+Jawaban pertanyaan dan panduan screenshot laporan ada di [TUGAS_PRAKTIK.md](TUGAS_PRAKTIK.md).
