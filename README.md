@@ -26,6 +26,6 @@ Aplikasi Android sederhana menggunakan Kotlin dan Jetpack Compose. Halaman utama
 1. Buka folder proyek ini di Android Studio.
 2. Tunggu Gradle Sync selesai.
 3. Pilih emulator atau perangkat Android.
-4. Pilih konfigurasi `app), lalu klik tombol Run (segitiga).
+4. Pilih konfigurasi `app`, lalu klik tombol Run (segitiga).
 
 Aplikasi memerlukan koneksi internet untuk memuat gambar. Jika gambar tidak bisa diambil, ikon lokal akan ditampilkan.
